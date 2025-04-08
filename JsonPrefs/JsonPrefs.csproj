@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\..\..\..\run\media\notabird\fast\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\..\..\..\run\media\notabird\fast\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx">
+        <HintPath>..\..\..\..\..\run\media\notabird\fast\SteamLibrary\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.dll</HintPath>
+      </Reference>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>..\..\..\..\..\run\media\notabird\fast\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\..\..\..\run\media\notabird\fast\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\..\..\..\run\media\notabird\fast\SteamLibrary\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
